@@ -1,0 +1,13 @@
+h1{
+    font-family: sans-serif;
+    font: #B7B6C1;
+}
+
+h2{
+    font-family: Verdana;
+}
+
+.gallery.img{
+    width: 3000px;
+    height: 2000px;
+}

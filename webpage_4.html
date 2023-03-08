@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Amy's Cooking Adventures</title>
+    <link rel="stylesheet" type="text/css" href="layout.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a
+            href="/Users/amyliu/Documents/appacademy/firstWebsite/webpage_1.html"
+            >Amy's Bio</a
+          >
+        </li>
+        <li>
+          <a
+            href="/Users/amyliu/Documents/appacademy/firstWebsite/webpage_2.html"
+            >Gallery</a
+          >
+        </li>
+        <li>
+          <a
+            href="/Users/amyliu/Documents/appacademy/firstWebsite/webpage_3.html"
+            >Recipes</a
+          >
+        </li>
+        <li>
+          <a
+            href="/Users/amyliu/Documents/appacademy/firstWebsite/webpage_4.html"
+            >Tell me what you want next!</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <h1>Tell me what you want me to try next!</h1>
+    <form action="/form-handling-url" method="post">
+      <fieldset>
+        <legend>Tell me your thoughts</legend>
+
+        <div>
+          <label for="name">Your name</label>
+          <input type="text" id="name" name="name" />
+        </div>
+
+        <div>
+          <label for="dish">Dish Name</label>
+          <input type="text" id="dish" name="dish" />
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email_address" />
+        </div>
+
+        <div>
+          <p>Category of your dish request:</p>
+          <input type="radio" id="main" name="dish_type" value="main" />
+          <label for="main">Main Course</label><br />
+          <input type="radio" id="side" name="dish_type" value="side" />
+          <label for="side">Side Dish</label><br />
+          <input type="radio" id="dessert" name="dish_type" value="dessert" />
+          <label for="dessert">Dessert</label>
+        </div>
+
+        <div>
+          <label for="comments">Additional Comments or Requests</label>
+          <textarea id="comments" name="comments"></textarea>
+        </div>
+
+        <div>
+          <input type="checkbox" id="signup" name="signup" value="Signup" />
+          <label for="signup">Sign up for newsletter</label><br />
+        </div>
+
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
